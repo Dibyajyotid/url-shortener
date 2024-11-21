@@ -1,0 +1,11 @@
+This is a simple URL shortener project made entirely in Go
+
+This project doesnot use any external Database like MongoDB, SQL etc
+
+This project uses a runtime Database Structure i have built using the Struct
+
+As long as the server is running it will save all data in the struct
+
+As soon as the server is turned off all the data in the database struct will be erased
+
+This project is just for my learning purpose on how we can short URL from a given long URL
