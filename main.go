@@ -104,9 +104,6 @@ func redirectUrlHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	// fmt.Println("Starting URL shortener")
-	// OriginalURL := "https://gobyexample.com/url-parsing"
-	// generateShortUrl(OriginalURL)
 
 	//Register the handler function to handle all the requests to the root URL
 	http.HandleFunc("/", rootHandler)
